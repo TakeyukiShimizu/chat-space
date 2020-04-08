@@ -1,0 +1,51 @@
+.side-bar {
+  background-color: #253141;
+  width: 300px;
+  .user-name {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    .top-items {
+      height: 20px;
+      width: 260px;
+      display: flex;
+      justify-content: space-between;
+      color: $mainWhiteColor;
+      &__name{
+        font-size: 16px;
+        font-weight: bold;
+      }
+      &__menu{
+        display: flex;
+        font-size: 0.9rem;
+        li {
+          list-style: none;
+          margin-left: 5px;
+          a {
+            color: $mainWhiteColor;
+          }
+        }
+      }
+    }
+  }
+  .group-list {
+    background-color: #2f3e51;
+    height: calc(100vh - 100px);
+    padding: 20px;
+    .group {
+      color: $mainWhiteColor;
+      text-decoration: none;
+      margin-bottom: 40px;
+      font-weight: bold;
+      &__group-name{
+        font-size: 15px;
+        margin-bottom: 5px;
+      }
+      &__message{
+        font-size: 11px;
+      }
+    }
+  }
+}
+
