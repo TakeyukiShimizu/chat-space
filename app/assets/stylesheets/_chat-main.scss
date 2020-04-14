@@ -10,21 +10,18 @@
     &__left-box{
       margin-top: 35px;
     }
-    &__current-group{
+    &__current-group {
       font-size: 20px;
       color: #333333;
       margin-bottom: 15px;
     }
-    &__member-list{
+    &__member-list {
       display: flex;
       font-size: 12px;
       color: #999999;
     }
-    a{
-      color: $submitBlueColor;
-      text-decoration: none;
-    }
     .edit-btn {
+      color: $submitBlueColor;
       height: 40px;
       line-height: 40px;
       padding: 0 20px;
@@ -32,7 +29,7 @@
       border: solid 1px $submitBlueColor;
       position: absolute;
       right: 40px;
-      }
+    }
   }
 
   .message-list {
