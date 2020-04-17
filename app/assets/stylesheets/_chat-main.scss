@@ -1,0 +1,103 @@
+.chat-main{
+  width: calc(100% - 300px);
+  float: left;
+  .group-info {
+    border-bottom: 1px solid #eeeeee;
+    justify-content: space-between;
+    display: flex;
+    padding: 0 40px;
+    overflow: scroll;
+    &__left-box{
+      margin-top: 35px;
+    }
+    &__current-group {
+      font-size: 20px;
+      color: #333333;
+      margin-bottom: 15px;
+    }
+    &__member-list {
+      display: flex;
+      font-size: 12px;
+      color: #999999;
+    }
+    .edit-btn {
+      color: $submitBlueColor;
+      height: 40px;
+      line-height: 40px;
+      padding: 0 20px;
+      margin-top: 30px;
+      border: solid 1px $submitBlueColor;
+      position: absolute;
+      right: 40px;
+    }
+  }
+
+  .message-list {
+    height: calc(100vh - 190px);
+    padding: 35px 40px;
+    background-color: #fafafa;
+    overflow: scroll;
+    &__info {
+      display: flex;
+      margin-bottom: 12px;
+    }
+      &__name{
+        font-size: 16px;
+        color: #333333;
+        font-weight: bold;
+      }
+      &__date{
+        font-size: 12px;
+        color: #999999;
+        margin-left: 10px;
+      }
+    .text {
+      font-size: 14px;
+      color: #434A54;
+      margin-bottom: 46px;
+    }
+  }
+
+  .message-form {
+    height: 90px;
+    padding: 20px 40px;
+    background-color: #ddd;
+    form {
+      display: flex;
+      .input-box {
+        display: flex;
+        width: 100%;
+        position: relative;
+        &__text{
+          height: 50px;
+          width: 100%;
+          padding: 0 40px 0 10px;
+          color: #434a54;
+        }
+        &__image{
+          font-size: 1.3rem;
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          cursor: pointer;
+          &__file{
+            display: none;
+          }
+        }        
+      }
+
+      .submit-btn {
+        width: 100px;
+        height: 50px;
+        padding: 0 30px;
+        margin-left: 15px;
+        background-color: $submitBlueColor;
+        font-size: 15px;
+        cursor: pointer;
+        color: $mainWhiteColor;
+      }
+    }
+  }
+}
+
+
