@@ -13,22 +13,9 @@
       .edit-btn
         Edit
 
-  .message-list
+  .messages-list
     = render @messages
-    -# .message-list__info
-    -#   %p.message-list__name
-    -#     masa
-    -#   %p.message-list__date
-    -#     2020/04/08(Wed) 13:01:47
-    -# .text
-    -#   おはよう！
-    -# .message-list__info
-    -#   %p.message-list__name
-    -#     masa
-    -#   %p.message-list__date
-    -#     2020/04/08(Wed) 13:01:53
-    -# .text
-    -#   今日は夜から雨です。
+
 
   .message-form
     = form_for [@group, @message] do |f|
