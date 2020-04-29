@@ -35,15 +35,17 @@
     }
   }
 
-  .message-list {
+  .messages-list {
     height: calc(100vh - 190px);
     padding: 35px 40px;
     background-color: #fafafa;
     overflow: scroll;
-    &__info {
-      display: flex;
-      margin-bottom: 12px;
-    }
+    .message-list{
+      margin-bottom: 46px;
+      &__info {
+        display: flex;
+        margin-bottom: 12px;
+      }
       &__name{
         font-size: 16px;
         color: #333333;
@@ -54,10 +56,10 @@
         color: #999999;
         margin-left: 10px;
       }
-    .text {
+    }
+    .text__content {
       font-size: 14px;
       color: #434A54;
-      margin-bottom: 46px;
     }
   }
 
