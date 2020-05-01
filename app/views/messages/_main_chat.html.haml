@@ -1,9 +1,8 @@
 .chat-main
   .group-info
     .group-info__left-box
-      - current_user.groups.each do |group|
-        .group-info__current-group
-          = group.name
+      .group-info__current-group
+        = @group.name
         %ul.group-info__member-list
           Member :
           - @group.users.each do |user|    
