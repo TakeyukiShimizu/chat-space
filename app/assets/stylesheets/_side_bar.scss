@@ -36,7 +36,6 @@
     .group {
       color: $mainWhiteColor;
       text-decoration: none;
-      margin-bottom: 40px;
       font-weight: bold;
       &__name{
         font-size: 15px;
@@ -44,6 +43,7 @@
       }
       &__message{
         font-size: 11px;
+        margin-bottom: 40px;
       }
     }
   }
