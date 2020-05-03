@@ -79,8 +79,8 @@ $(function(){
         $.each(messages, function(i, message) {
           insertHTML += buildHTML(message)
         });
-        $('.message-list').append(insertHTML);
-        $('.message-list').animate({ scrollTop: $('.messages-list')[0].scrollHeight});
+        $('.messages-list').append(insertHTML);
+        $('.messages-list').animate({ scrollTop: $('.messages-list')[0].scrollHeight});
       }
     })
     .fail(function() {
